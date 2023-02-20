@@ -35,10 +35,9 @@ Check database on mongodb: ```docker exec mongodb mongosh```<br/>
 Check table on postgresdb: ```docker exec -it tahinipost psql -U postgres -h localhost -p 5432 -d reddit_db```<br/>
 
 
+## The folder structure should be:
+
 ```
-The folder structure should be:
-
-
 |__ reddit_collector
     |__ config.py
     |__ Dockerfile 
