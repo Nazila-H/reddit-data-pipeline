@@ -14,7 +14,7 @@ from config import PG_CONFIGURATION
 time.sleep(30)  # seconds 
 
 # url get from slack developer webpage
-webhook_url = "https://hooks.slack.com/services/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"
+webhook_url = "webhook_url"
 
 # # This part is only used when you want to post python joke on slack instead of tweets
 # # If want to use this part requirements.txt should include pyjoke
